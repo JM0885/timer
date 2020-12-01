@@ -4,7 +4,8 @@
 
 //Put input numbers into an array
 //Loop through array and set Timeout to equal the number in the array (*1000 for milliseconds)
-// 
+
+
 let input = process.argv.slice(2)
   .filter(alarmTime => !isNaN(alarmTime))
   .filter(alarmTime => alarmTime >= 0);
